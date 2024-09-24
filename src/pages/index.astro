@@ -7,10 +7,10 @@ import Layout from '../layouts/Layout.astro';
 		<h1>Work in Progress</h1>
 		<p>contact@jordifarre@gmail.com</p>
 		<div class="social-icons">
-			<a href="https://www.instagram.com/jordiiifarre/" target="_blank"><img src="/website-jordi/iconos/instagram.svg" alt="instagram"/></a>
-			<a href="https://www.linkedin.com/in/jordi-f-6396a2138/" target="_blank"><img src="/website-jordi/iconos/linkedin.svg" alt="linkedin"/></a>
-			<a href="https://www.behance.net/jordiiifarre/" target="_blank"><img src="/website-jordi/iconos/behance.svg" alt="linkedin"/></a>
-			<a href="https://www.jordiifarre.com" target="_blank"><img src="/website-jordi/iconos/ball.svg" alt="linkedin"/></a>
+			<a href="https://www.instagram.com/jordiiifarre/" target="_blank"><img src="/iconos/instagram.svg" alt="instagram"/></a>
+			<a href="https://www.linkedin.com/in/jordi-f-6396a2138/" target="_blank"><img src="/iconos/linkedin.svg" alt="linkedin"/></a>
+			<a href="https://www.behance.net/jordifarre1" target="_blank"><img src="/iconos/behance.svg" alt="behance"/></a>
+			<a href="https://www.jordiifarre.com" target="_blank"><img src="/iconos/ball.svg" alt="website"/></a>
 		</div>
 	</main>
 </Layout>
@@ -18,10 +18,18 @@ import Layout from '../layouts/Layout.astro';
 <style>
 	body {
 		background-color: #111;
+		margin: 0;
+		height: 100vh;
 		color: white;
 		font-family: Arial, sans-serif;
 		text-align: center;
-		padding: 50px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
 	}
 
 	h1 {
