@@ -3,13 +3,16 @@
 ---
 
 <footer>
-    <div class="container">
+    <div class="container container-padding">
         <a class="button" href="/">All my projects</a>
         <a class="button" href="/about">Know me more</a>
     </div>
 
-    <div class="container">
-
+    <div class="container icons-padding">
+        <a href="https://www.instagram.com/jordiiifarre/" target="_blank"><img src="/iconos/instagram.svg" alt="instagram"/></a>
+        <a href="https://www.linkedin.com/in/jordi-f-6396a2138/" target="_blank"><img src="/iconos/linkedin.svg" alt="linkedin"/></a>
+        <a href="https://www.behance.net/jordifarre1" target="_blank"><img src="/iconos/behance.svg" alt="behance"/></a>
+        <a href="https://www.jordiifarre.com" target="_blank"><img src="/iconos/ball.svg" alt="website"/></a>
     </div>
 </footer>
 
@@ -27,7 +30,14 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 50px;
-        padding-top: 100px;
+    }
+
+    footer div.container-padding {
+        padding: 100px 10px 10px 10px;
+    }
+
+    footer div.icons-padding {
+        padding: 50px 10px 100px 10px;
     }
 
     footer div.container a.button {
@@ -42,6 +52,15 @@
 
     footer div.container a.button:hover {
         background-color: rgba(255, 255, 255, 0.12);
+    }
+
+    footer div.container a {
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    footer div.container a img {
+        height: 40px;
     }
 
 </style>
