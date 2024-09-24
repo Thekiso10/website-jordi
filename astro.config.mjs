@@ -5,6 +5,5 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
-  site: "https://thekiso10.github.io",
-  base: "website-jordi"
+  site: "https://www.jordiifarre.com",
 });

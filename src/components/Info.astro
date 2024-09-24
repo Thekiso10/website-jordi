@@ -1,0 +1,73 @@
+---
+
+---
+
+<section>
+    <div class="temp">
+    </div>
+    <div class="info">
+        <h3>Howdy, partner!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="/contact">Know me more</a>
+    </div>
+</section>
+
+<style>
+    @font-face {
+        font-family: 'Helvetica Compressed';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Helvetica Compressed'), url('/fonts/helvetica-compressed-5871d14b6903a.woff') format('woff');
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    div.temp {
+        background-color: grey;
+        width: 1200px;
+        height: 600px;
+    }
+
+    div.info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    div.info h3 {
+        font-family: 'Helvetica Compressed', sans-serif;
+        font-size: 63px;
+        font-weight: 200;
+        color: #fff;
+        margin: 0 0 15px 0;
+    }
+
+    div.info p {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 19px;
+        font-weight: 200;
+        color: #fff;
+        padding: 0 20em;
+    }
+
+    div.info a {
+        font-family: 'Helvetica Compressed', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        color: #fff;
+        border: 3px solid #fff;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    div.info a:hover {
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+</style>

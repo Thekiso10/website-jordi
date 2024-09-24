@@ -1,11 +1,43 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
+import Contact from '../components/Contact.astro';
+import Info from '../components/Info.astro';
 ---
 
 <Layout title="Jordi's web">
 	<Navbar/>
 	<main>
-
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
 	</main>
+	<Contact/>
+	<Info/>
 </Layout>
+
+<style>
+	body {
+		background-color: #121212;
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 10fr);
+		grid-column-gap: 0;
+		grid-row-gap: 0;
+	}
+
+	main div {
+		height: 50px;
+		padding: 1em;
+		background-color: #23262d;
+		border: 1px solid white;
+	}
+</style>

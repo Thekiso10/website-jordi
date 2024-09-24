@@ -19,9 +19,9 @@ const activeColor = 'active-link';
 </nav>
 
 <style>
+
     .navbar {
-        background-color: black;
-        width: 100%;
+        background-color: #121212;
         padding: 20px 32px;
     }
 
@@ -30,7 +30,6 @@ const activeColor = 'active-link';
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        height: 112px;
         margin: 0 auto;
         padding: 0 16px;
     }
@@ -44,8 +43,12 @@ const activeColor = 'active-link';
     .menu-list {
         display: flex;
         justify-content: center;
-        gap: 16px;
-        font-weight: 600;
+        gap: 10px;
+        list-style-type: none;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 19px;
+        font-weight: 200;
+        text-transform: uppercase;
     }
 
     .menu-list li {
@@ -53,11 +56,11 @@ const activeColor = 'active-link';
     }
 
     .menu-list a {
-        color: white;
+        color: #ffffff;
         text-decoration: none;
     }
 
-    .active-link {
-        color: yellow;
+    .menu-list a.active-link {
+        color: #FDD600;
     }
 </style>
