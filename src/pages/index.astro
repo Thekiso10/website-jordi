@@ -1,58 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
 ---
 
 <Layout title="Jordi's web">
+	<Navbar/>
 	<main>
-		<h1>Work in Progress</h1>
-		<p>contact@jordifarre@gmail.com</p>
-		<div class="social-icons">
-			<a href="https://www.instagram.com/jordiiifarre/" target="_blank"><img src="/website-jordi/iconos/instagram.svg" alt="instagram"/></a>
-			<a href="https://www.linkedin.com/in/jordi-f-6396a2138/" target="_blank"><img src="/website-jordi/iconos/linkedin.svg" alt="linkedin"/></a>
-			<a href="https://www.behance.net/jordiiifarre/" target="_blank"><img src="/website-jordi/iconos/behance.svg" alt="linkedin"/></a>
-			<a href="https://www.jordiifarre.com" target="_blank"><img src="/website-jordi/iconos/ball.svg" alt="linkedin"/></a>
-		</div>
+
 	</main>
 </Layout>
-
-<style>
-	body {
-		background-color: #111;
-		color: white;
-		font-family: Arial, sans-serif;
-		text-align: center;
-		padding: 50px;
-	}
-
-	h1 {
-		font-size: 36px;
-		margin-bottom: 10px;
-	}
-
-	p {
-		color: white;
-		font-size: 42px;
-		margin-bottom: 40px;
-		margin-top: 20px;
-	}
-
-	.social-icons {
-		display: flex;
-		justify-content: center;
-		gap: 40px;
-	}
-
-	.social-icons a {
-		color: white;
-		font-size: 24px;
-		text-decoration: none;
-	}
-
-	.social-icons a img {
-		height: 40px;
-	}
-
-	.social-icons a:hover {
-		color: gray;
-	}
-</style>
